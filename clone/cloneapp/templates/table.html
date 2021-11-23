@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <table border="1px" cellpadding="10px" background="/static/sky.jpg" width="500px" height="250px" >
+        <thead>
+            <th colspan="5" align="center">Room Traiff</td>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Room Type</th>
+                <th colspan="2">Deluxe</th>
+                <th colspan="2">Executive</th>
+            </tr> 
+            <tr>
+                <th>AC</th>
+                <th>NON- AC</th>
+                <th>AC</th>
+                <th>NON- AC</th>
+            </tr>
+            <tr>
+                <td>1500</td>
+                <td>1000</td>
+                <td>2500</td>
+                <td>1500</td>
+            </tr>
+        </tbody>
+
+
+    </table><br /><br />
+
+    <a href="{% url 'cloneapp:fblog' %}">click</a>
+</body>
+</html>
