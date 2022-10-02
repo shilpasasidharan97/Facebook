@@ -1,0 +1,40 @@
+.avatar{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 2px grey solid;
+    margin-left: 640px;
+    margin-top: 220px;
+}
+h3{
+    margin-left: 677px;
+    margin-top: 5px;
+}
+.cover-page{
+    background-image: url('/static/images/bacckground.jpg');
+    height: 330px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+.header-page{
+    width:100%;
+    height: 89px;
+    background-color: rgb(84, 98, 173);
+}
+a{
+    text-decoration: none;
+}
+.body-page{
+    background-color: rgb(201, 197, 197);
+    height: 500px;
+}
+.nav{
+    height: 30px;
+    margin-top: 95px;
+    text-align: center;
+    word-spacing: 200px;
+    margin-top: 110px;
+    background-color: white;
+}
