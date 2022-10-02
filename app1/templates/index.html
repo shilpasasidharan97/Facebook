@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Homepage</title>
+    <!-- Style sheet Link -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body style="background-color:whitesmoke">
+
+
+    <!-- Header Section -->
+    <div class="header-page">
+        <div style="float: left;">
+            <img src="{% static 'images/fb logo.jpg' %}" alt="" style="width: 300px; height: 80px;">
+        </div>
+        <div style="float: right;margin-top:30px;margin-right: 70px;">
+            <form action="">
+                <input type="text" placeholder="email or username" style="height: 30px;">
+                <input type="text" placeholder="Password" style="height: 30px;">
+                <button style="background-color: rgb(2, 139, 59);height: 30px;width: 100px;">LOGIN</button>
+            </form>
+            <a href="#" >Forgot password</a>
+        </div>
+    </div>
+
+    <!-- Signup Form -->
+    <div>
+        <div style="float: left;margin-left: 95px;margin-top: 65px;">
+            <img src="{% static 'images/coonection.png' %}" alt="" style="width: 650px;">
+        </div>
+        <div style="height: 450px;width: 650px;margin-top: 80px;justify-content: center;float: right;">
+            <div>
+                <form action=""  style="float: right;margin-right: 250px;">
+                    <table style="padding: 10px;">
+                        <tr>
+                            <td><b><h1>Create an account....</h1></b></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="First name" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Last name" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Mobile Number or Email id" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="New password" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Date Of Birth</td>
+                        </tr>
+                        <tr>
+                            <td><input type="date"></td>
+                        </tr>
+                    </table>
+                    <input type="radio" name="gender">
+                    <label for="">Female</label>
+                    <input type="radio" name="gender">
+                    <label for="">Male</label><br /><br />
+
+                    <button style="background-color:darkgreen;height: 40px;width: 250px;">Create an account</button>
+                </form>
+            </div>
+        </div>
+    </div>  
+            
+        
+</body>
+</html>
